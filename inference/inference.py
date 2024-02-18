@@ -38,7 +38,7 @@ class Inference:
 
         prediction = self.model.predict(X_input)
 
-        return prediction
+        return prediction[0]
 
 # Example usage:
 stock_name = "UNH"
